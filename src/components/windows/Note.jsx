@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import MacWindow from "./MacWindow";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
+import "./note.scss";
 
 const Note = () => {
   const [text, setText] = useState(null);
