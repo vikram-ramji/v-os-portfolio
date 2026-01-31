@@ -1,0 +1,110 @@
+/**
+ * @file: developer_manifesto.ts
+ * @author: Vikram Ramji Iyer
+ * @status: BUILDING_THE_FUTURE
+ * @summary: Creative Technologist bridging AI, Robotics, and WebGL.
+ */
+
+// --------------------------------------------------
+// 1. ARSENAL (Tech Stack & Weapons)
+// --------------------------------------------------
+
+const TECH_STACK = {
+  core: [
+    "React.js",       // Native Tongue
+    "TailwindCSS",    // Muscle Memory
+    "JavaScript/ES6", // Foundation
+    "GSAP/Motion",    // Current Obsession
+  ],
+  learning_active: [
+    "Three.js",       // Rendering the void
+    "WebGL",          // Breaking the DOM
+    "Node.js/MERN",   // Backend Logic
+    "DSA",            // The Necessary Evil
+  ],
+  design_philosophy: ["Minimalism", "Elegance"]
+};
+
+// --------------------------------------------------
+// 2. TIMELINE (The Pivot)
+// --------------------------------------------------
+
+class Evolution {
+  
+  /** * CURRENT STATE (The Grind)
+   * @period 2026 - Present 
+   * @context Sheryians Coding School / Self-Taught
+   */
+  public async Creative_Developer_Arc(): Promise<Goal> {
+    const focus = "Mastering the Visual Web";
+    
+    // CURRENT SPRINT:
+    // Building a MacOS-inspired Portfolio with complex state management.
+    // Pushing React performance to 60FPS on low-end devices.
+    // Bridging the gap between "Web Dev" and "Immersive Art".
+    
+    return { status: "Leveling Up", trajectory: "Exponential" };
+  }
+
+  /** * ORIGIN STORY
+   * @period 2022 - 2025
+   * @context B.Sc Computer Science & AI, Loyola Academy
+   */
+  public University_Days(): void {
+    this.major = "Computer Science & AI";
+    this.realization = "Theory without Application is useless.";
+    
+    // The Pivot:
+    // Realized standard AI degrees were lagging behind industry reality.
+    // Switched focus to the PLATFORM (Web) that AI lives on.
+    // Failed fast. Learned faster. Resetting the foundations.
+  }
+}
+
+// --------------------------------------------------
+// 3. R&D LABS (Current Experiments)
+// --------------------------------------------------
+
+interface Experiment {
+  id: string;
+  status: "In Progress" | "Failed" | "Shipped";
+  learning_outcome: string;
+}
+
+const active_experiments: Experiment[] = [
+  {
+    id: "MacOS_Portfolio_V1",
+    status: "In Progress",
+    learning_outcome: "Advanced CSS Layouts & Framer Motion Physics",
+  },
+  {
+    id: "Creative_Coding_01",
+    status: "In Progress",
+    learning_outcome: "Understanding 3D coordinate systems & Shaders",
+  }
+];
+
+// --------------------------------------------------
+// 4. THE DREAM (Future Roadmap)
+// --------------------------------------------------
+
+const target_destinations = new Set([
+  "High-Performance Robotics Interfaces (China/Global)",
+  "Creative Agencies (India/Remote)",
+  "Building the 'Jarvis' UI for real-world AI"
+]);
+
+export default new Evolution();
+
+
+/*
+ ===========================================================================
+ > TERMINAL_OUTPUT_LOG
+ ===========================================================================
+ $ user --status
+ > Status:    [||||||||--] 85% (Loading Assets)
+ > Objective: Break the Grid.
+ > Location:  Secunderabad (Base) -> Global (Target)
+ > Quote:     "I don't just write code. I write experiences."
+ ===========================================================================
+*/

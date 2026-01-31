@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: rgba(100, 100, 100, 0.2);
+  backdrop-filter: blur(5px);
+
+  padding: 0.5rem 1rem;
+
+  img {
+    display: block;
+  }
+
+  .left,
+  .right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .nav-item {
+      cursor: pointer;
+    }
+  }
+}

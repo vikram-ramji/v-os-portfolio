@@ -1,0 +1,56 @@
+.window {
+  height: 100%;
+  overflow: hidden;
+  background: #111;
+  border-radius: 0.75rem;
+
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 0.75rem;
+
+    .dots {
+      display: flex;
+      gap: 0.5rem;
+
+      .dot {
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+
+      .red {
+        background-color: #ff5f56;
+      }
+
+      .yellow {
+        background-color: #ffbd2e;
+      }
+
+      .green {
+        background-color: #27c93f;
+      }
+    }
+
+    .title {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  .main-content {
+    height: calc(100% - 2.5rem);
+  }
+
+  *::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 0.5rem;
+  }
+}

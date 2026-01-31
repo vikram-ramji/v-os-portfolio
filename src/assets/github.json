@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "image": "/images/productivity-dashboard.png",
+    "title": "Productivity Dashboard",
+    "description": "A distraction-free, productivity dashboard built with vanilla JS. Features local-first data persistence, todo list, daily planner, pomodoro timer, quote and habit tracker.",
+    "tags": ["JavaScript", "HTML", "CSS"],
+    "repoLink": "https://github.com/vikram-ramji/productivity-dashboard",
+    "demoLink": "https://vikram-ramji.github.io/productivity-dashboard/"
+  },
+  {
+    "id": 2,
+    "image": "/images/anchor.webp",
+    "title": "Anchor Nav Component",
+    "description": "A minimal, fluid navigation menu built with the CSS Anchor Positioning API and mix-blend-mode for dynamic color inversion.",
+    "tags": ["HTML", "CSS"],
+    "repoLink": "https://github.com/vikram-ramji/css-anchor-nav-component",
+    "demoLink": "https://vikram-ramji.github.io/css-anchor-nav-component/"
+  }
+]
