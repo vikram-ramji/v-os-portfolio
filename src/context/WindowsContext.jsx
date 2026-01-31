@@ -32,10 +32,13 @@ export const WindowsProvider = ({ children }) => {
       ...prevWindows,
       [windowName]: !prevWindows[windowName],
     }));
+    focusWindow(windowName);
   };
 
   return (
-    <WindowsContext.Provider value={{ windows, toggleWindow, focusWindow, zIndices }}>
+    <WindowsContext.Provider
+      value={{ windows, toggleWindow, focusWindow, zIndices }}
+    >
       {children}
     </WindowsContext.Provider>
   );
