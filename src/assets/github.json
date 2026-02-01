@@ -1,6 +1,24 @@
 [
   {
     "id": 1,
+    "image": "/images/v-os.gif",
+    "title": "V-OS (MacOS-style Portfolio)",
+    "description": "A specialized portfolio engineered as a functional Operating System. Built with React.js, simulating a macOS environment.",
+    "tags": ["ReactJS", "SCSS"],
+    "repoLink": "https://github.com/vikram-ramji/v-os-portfolio",
+    "demoLink": "https://v-os-portfolio.vercel.app/"
+  },
+  {
+    "id": 2,
+    "image": "/images/visual-editor.gif",
+    "title": "DOM Visual Editor",
+    "description": "A lightweight, DOM-based design tool built entirely in Vanilla JavaScript. Features drag-and-drop, resizing, layering, styling, LocalStorage support, and JSON/HTML export.",
+    "tags": ["JavaScript", "HTML", "CSS"],
+    "repoLink": "https://github.com/vikram-ramji/dom-visual-editor",
+    "demoLink": "https://vikram-ramji.github.io/dom-visual-editor/"
+  },
+  {
+    "id": 3,
     "image": "/images/productivity-dashboard.png",
     "title": "Productivity Dashboard",
     "description": "A distraction-free, productivity dashboard built with vanilla JS. Features local-first data persistence, todo list, daily planner, pomodoro timer, quote and habit tracker.",
@@ -9,7 +27,7 @@
     "demoLink": "https://vikram-ramji.github.io/productivity-dashboard/"
   },
   {
-    "id": 2,
+    "id": 4,
     "image": "/images/anchor.webp",
     "title": "Anchor Nav Component",
     "description": "A minimal, fluid navigation menu built with the CSS Anchor Positioning API and mix-blend-mode for dynamic color inversion.",
