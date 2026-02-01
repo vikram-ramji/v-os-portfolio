@@ -1,6 +1,7 @@
 import { Rnd } from "react-rnd";
 import "./window.scss";
 import { useWindows } from "../../context/WindowsContext";
+import { useState } from "react";
 
 const MacWindow = ({
   children,
@@ -12,6 +13,8 @@ const MacWindow = ({
   y = 200,
 }) => {
   const { toggleWindow, focusWindow, zIndices } = useWindows();
+  const [isFullScreen, setIsFullScreen] = useState(false);
+
   return (
     <Rnd
       default={{
@@ -21,8 +24,11 @@ const MacWindow = ({
         y: y,
       }}
       style={{ zIndex: zIndices[windowType] }}
+      className={`mac-window-rnd ${isFullScreen ? "fullscreen" : ""}`}
       onMouseDown={() => focusWindow(windowType)}
       onDragStart={() => focusWindow(windowType)}
+      disableDragging={isFullScreen}
+      enableResizing={!isFullScreen}
     >
       <div className="window">
         <div className="nav">
@@ -31,8 +37,14 @@ const MacWindow = ({
               className="dot red"
               onClick={() => toggleWindow(windowType)}
             ></div>
-            <div className="dot yellow"></div>
-            <div className="dot green"></div>
+            <div
+              className="dot yellow"
+              onClick={() => toggleWindow(windowType)}
+            ></div>
+            <div
+              className="dot green"
+              onClick={() => setIsFullScreen(!isFullScreen)}
+            ></div>
           </div>
           <div className="title">
             <p>{title}</p>

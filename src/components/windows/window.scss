@@ -1,3 +1,21 @@
+.mac-window-rnd {
+  transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+
+  &.fullscreen {
+    width: 100vw !important;
+    height: 100vh !important;
+    transform: translate(0, 0) !important;
+    top: 0 !important;
+    left: 0 !important;
+    position: fixed !important;
+    border-radius: 0 !important;
+  }
+}
+
+.mac-window-rnd.react-draggable-dragging {
+  transition: none !important;
+}
+
 .window {
   height: 100%;
   overflow: hidden;
